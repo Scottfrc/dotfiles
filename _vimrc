@@ -19,7 +19,11 @@ set tabstop=4
 set softtabstop=4 
 set shiftwidth=4 
 set expandtab
-nmap <S-Enter> O<Esc>j
 
+" Open up some plugins a little easier
+nmap <C-n> :NERDTreeToggle<CR>
+
+" Shortcut commands
+nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>k
 nmap gs i<CR><Esc>
