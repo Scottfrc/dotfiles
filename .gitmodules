@@ -1,0 +1,3 @@
+[submodule "vimfiles/bundle/vim-razor"]
+	path = vimfiles/bundle/vim-razor
+	url = https://github.com/adamclerk/vim-razor.git

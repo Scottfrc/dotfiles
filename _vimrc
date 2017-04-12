@@ -1,6 +1,25 @@
-colorscheme desert
-set hlsearch
-hi Search guibg=LightBlue
-set autoindent
+call pathogen#infect()
 
+colorscheme solarized
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+set hlsearch
+hi Search guibg=Blue
+set autoindent
+set ruler
 set runtimepath^=~/vimfiles/bundle/ctrlp.vim
+set guifont=consolas:h9
+
+syntax on 
+set syn=auto 
+set showmatch 
+filetype on 
+filetype plugin on 
+filetype indent on 
+set tabstop=4 
+set softtabstop=4 
+set shiftwidth=4 
+set expandtab
+nmap <S-Enter> O<Esc>j
+
+nmap <CR> o<Esc>k
+nmap gs i<CR><Esc>
