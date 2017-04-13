@@ -8,6 +8,7 @@ set autoindent
 set ruler
 set runtimepath^=~/vimfiles/bundle/ctrlp.vim
 set guifont=consolas:h9
+packadd! matchit
 
 syntax on 
 set syn=auto 
@@ -27,3 +28,7 @@ nmap <C-n> :NERDTreeToggle<CR>
 nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>k
 nmap gs i<CR><Esc>
+
+" Switch between open tabs
+nmap <F7> :tabp<CR>
+nmap <F8> :tabn<CR>
