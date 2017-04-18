@@ -7,3 +7,6 @@
 [submodule "vimfiles/bundle/matchit.vim"]
 	path = vimfiles/bundle/matchit.vim
 	url = https://github.com/tmhedberg/matchit.git
+[submodule "vimfiles/bundle/typescript-vim"]
+	path = vimfiles/bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git

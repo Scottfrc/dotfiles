@@ -28,6 +28,7 @@ nmap <C-n> :NERDTreeToggle<CR>
 nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>k
 nmap gs i<CR><Esc>
+nmap gr viwp
 
 " Switch between open tabs
 nmap <F7> :tabp<CR>
