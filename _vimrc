@@ -33,3 +33,4 @@ nmap gr viwp
 " Switch between open tabs
 nmap <F7> :tabp<CR>
 nmap <F8> :tabn<CR>
+nmap gws :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
