@@ -10,3 +10,9 @@
 [submodule "vimfiles/bundle/typescript-vim"]
 	path = vimfiles/bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vimfiles/bundle/auto-pairs"]
+	path = vimfiles/bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "vimfiles/bundle/javascript-libraries-syntax"]
+	path = vimfiles/bundle/javascript-libraries-syntax
+	url = https://github.com/othree/javascript-libraries-syntax.vim
