@@ -16,3 +16,9 @@
 [submodule "vimfiles/bundle/javascript-libraries-syntax"]
 	path = vimfiles/bundle/javascript-libraries-syntax
 	url = https://github.com/othree/javascript-libraries-syntax.vim
+[submodule "vimfiles/bundle/neocomplete"]
+	path = vimfiles/bundle/neocomplete
+	url = https://github.com/shougo/neocomplete.vim
+[submodule "vimfiles/bundle/vim-buffergator"]
+	path = vimfiles/bundle/vim-buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator
