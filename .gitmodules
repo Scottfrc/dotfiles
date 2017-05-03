@@ -22,3 +22,6 @@
 [submodule "vimfiles/bundle/vim-buffergator"]
 	path = vimfiles/bundle/vim-buffergator
 	url = https://github.com/jeetsukumaran/vim-buffergator
+[submodule "vimfiles/bundle/vim-surround"]
+	path = vimfiles/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
