@@ -34,8 +34,13 @@ nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>k
 nmap gs i<CR><Esc>
 nmap gr viwp
+nmap gqq :%s/\(.*\)/\'\1\', /g <CR> :noh <CR> ggVG
+" end Shortcuts
 
 " Switch between open tabs
 nmap <F7> :tabp<CR>
 nmap <F8> :tabn<CR>
+
+" ?
 nmap gws :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+
